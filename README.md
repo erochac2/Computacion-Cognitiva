@@ -19,13 +19,14 @@ a un modelo de lenguaje interactuar con datos reales.
 - GitHub
 
 ## Estructura del proyecto
-mcp_inventory/
-├── server.py        # Servidor MCP con herramientas CRUD y analíticas
-├── database.py      # Inicialización de la base de datos SQLite
-├── test_server.py   # Script de pruebas funcionales
-├── requirements.txt # Dependencias del proyecto
-├── inventory.db     # Base de datos (se genera automáticamente)
-└── README.md        # Este archivo
+| Archivo | Descripción |
+|---------|-------------|
+| `server.py` | Servidor MCP con herramientas CRUD y analíticas |
+| `database.py` | Inicialización de la base de datos SQLite |
+| `test_server.py` | Script de pruebas funcionales |
+| `requirements.txt` | Dependencias del proyecto |
+| `inventory.db` | Base de datos (se genera automáticamente) |
+| `README.md` | Este archivo |
 
 ## Requisitos previos
 - Python 3.8 o superior

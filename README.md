@@ -1,3 +1,32 @@
+# Actividad 6 – Desarrollo de Servidor MCP para Gestión de Inventario
+
+## Integrantes
+- Edwin Leonardo Rocha
+- Viviana Caterine Lopez
+
+## Descripción
+Se desarrolló un servidor MCP utilizando FastMCP y SQLite 
+para la gestión de inventario de productos, implementando 
+operaciones CRUD y herramientas analíticas que permiten 
+a un modelo de lenguaje interactuar con datos reales.
+
+
+## Tecnologías utilizadas
+- Python 3.12
+- FastMCP
+- SQLite
+- Git
+- GitHub
+
+## Estructura del proyecto
+mcp_inventory/
+├── server.py        # Servidor MCP con herramientas CRUD y analíticas
+├── database.py      # Inicialización de la base de datos SQLite
+├── test_server.py   # Script de pruebas funcionales
+├── requirements.txt # Dependencias del proyecto
+├── inventory.db     # Base de datos (se genera automáticamente)
+└── README.md        # Este archivo
+
 ## Requisitos previos
 - Python 3.8 o superior
 - Git instalado
